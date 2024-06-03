@@ -1,0 +1,14 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Nathan Uko
+	email = 153921722+Ukbrave@users.noreply.github.com
+[core]
+	editor = 'C:/program files (X86/sublime text 3/subl.exe'-w
+[http]
+	proxy = http://proxy.company.com:proxyport
+[init]
+	defaultBranch = main
